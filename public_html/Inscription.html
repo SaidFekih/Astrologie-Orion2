@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Inscription</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cssform.css" />
+
+    </head>
+    <body>
+         <!--Haut de Page -->
+        <header>
+            
+            <img id="logoHead" src="images/Logo Astrolagie.jpg">
+            <h1 id="titre">Astrologie Orion </h1>
+            
+        </header>
+        <nav class="menu-nav">
+            <ul>
+                
+                <li class="btn">
+                    <a href="index.html">
+                        Acceuil
+                    </a>
+                </li>
+                 <li class="btn">
+                     <a href="horoscope.html">
+                         Horoscope
+                     </a>
+                </li> 
+                <li class="btn">
+                    <a href="inscription.html">
+                        Inscription
+                    </a>
+                </li>
+                
+            </ul>         
+        </nav>
+         <div id="content">
+         
+            <form name="MonFormulaire" action="UneAction" method="post">
+               <fieldset name="Identification" id="Identification">
+                   <legend>Informations</legend>
+
+                   <p id="Civilite">
+                       <input type="radio" name="Civilite" id="Monsieur" /><label for="Monsieur">Monsieur</label>
+                       <input type="radio" name="Civilite" id="Madame" /><label for="Madame">Madame</label>
+                   </p>
+                   <p class="Requis"><label for="Nom">Votre nom de famille : </label><input type="text" name="Nom" id="Nom" autofocus="true" required /></p>
+                   <p class="Requis"><label for="Prenom">Votre prénom : </label><input type="text" name="Prenom" id="Prenom" required /></p>
+                   <p class="Requis"><label for="NomUtilisateur">Créez votre nom d'utilisateur : </label><input type="text" name="NomUtilisateur" id="NomUtilisateur" required /></p>
+                   <p class="Requis"><label for="MotPasse">Créez votre mot de passe : </label><input type="password" name="MotPasse" id="MotPasse" maxlength="12" required /></p>
+                   <p class="Requis"><label for="Confirmation">Confirmez votre mot de passe : </label><input type="password" name="Confirmation" id="Confirmation" maxlength="12" required /></p>
+                   <p><label for="horoscope">Horoscope : </label>
+                       <select name="Province" id="Province">
+                               <option>Belier</option>
+                               <option>Taureau </option>
+                               <option>Gemeaux </option>
+                               <option>Cancer </option>
+                               <option selected>Lion</option>
+                               <option>Vierge</option>
+                               <option>Balance</option>
+                               <option>Scorpion </option>
+                               <option>Sagittaire </option>
+                               <option>Capricorne</option>
+                               <option>Verseau </option>
+                       </select>
+                   </p>
+                   <p><label for="Adresse">Votre adresse postale : </label><input type="text" name="Adresse" id="Adresse" /></p>
+                   <p><label for="Ville">Ville : </label><input type="text" name="Ville" id="Ville" /></p>
+
+                   <p><label for="Province">Province / Territoire : </label>
+                   <select name="Province" id="Province">
+                           <option>Ile-du-Prince-Édouard</option>
+                           <option>Terre-Neuve</option>
+                           <option>Nouvelle-Écosse</option>
+                           <option>Nouveau-Brunswick</option>
+                           <option selected>Québec</option>
+                           <option>Ontario</option>
+                           <option>Manitoba</option>
+                           <option>Saskatchewan</option>
+                           <option>Alberta</option>
+                           <option>Colombie-Britanique</option>
+                           <option>Nunavut</option>
+                           <option>Territoires du Nord-Ouest</option>
+                           <option>Yukon</option>
+                   </select></p>
+                   <p><label for="Telephone">Votre numéro de téléphone à domicile : </label> <input type="text" name="Telephone" id="Telephone" /></p>
+                   <p><label for="CelPhone">Votre numéro de téléphone Cellulaire : </label><input type="text" name="CelPhone" id="CelPhone" /></p>
+                   <p class="Requis"><label for="Courriel">Votre adresse de courriel : </label><input type="email" name="Courriel" id="Courriel" required /></p>
+                   <br>                
+                   <p class="Requis" align="center" > ***Les champs identifiés en jaune doré sont obligatoire***</p>               
+               </fieldset>
+
+                <P>
+                   <input id="btnforms" type="submit" name="btnSoumettre" value="Soumettre" /> 
+                   <input id="btnforma" type="reset" name="btnreset" value=" Annuler "/>
+               </P>
+           </form>
+            <br/>
+            <br/>
+         </div>
+         <footer>           
+            <p id="baspage"> Copyright &COPY; Astrologie Orion 2019-2020 All right Reserved</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,236 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 janv. 2020, 14 h 10 min 54 s
+    Author     : Said
+*/
+body
+{
+     background-image: url(images/ArrierPlanSite1.jpg);
+     
+}
+header
+{
+    vertical-align: top;
+    width:1150px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:solid 5px #3b473f;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-family:cursive;
+    font-size:x-large;
+}
+#logoHead 
+{
+    display:inline-block;
+    margin-left:5px;
+    margin-top:5px;
+    width:150px; 
+    height:150px;
+}
+#titre
+{
+    display:inline-block;
+    vertical-align: top;
+    float: right;
+    text-align:center;
+    padding: 10px 200px;
+}
+#sousTitre
+{
+    color:gray;
+    vertical-align:top;
+    float: right;
+}
+nav.menu-nav ul li.btn
+{
+    list-style-type: none;
+    display: inline-block;
+}
+nav.menu-nav ul li.btn a 
+{
+    color:whitesmoke;
+    background-color: #3b473f;
+    text-decoration: none;
+    padding:7px 5px 3px 5px ; 
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-size: x-large;
+    
+}
+nav.menu-nav ul li.btn:hover a 
+{
+   color: #3b473f;
+   background-color: whitesmoke;
+   transition: 0.5s all;
+   -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+
+div#content
+{
+    border: solid 3px #3b473f; 
+    margin-left: 150px;
+    background-color: #3b473f;
+    border-radius:15px;
+    width: 800px;
+    color: whitesmoke;
+    font-family:cursive;
+    font-size:x-large;
+
+}
+
+fieldset
+{
+    width:750px;
+    position:relative;
+    padding:15px;
+    margin: auto;
+    border: solid 3px #3b473f; 
+    border-radius:15px;
+}
+legend
+{
+    color: whitesmoke;
+    font-family:cursive;
+    font-size:x-large;
+    
+}
+.Requis
+{
+    color:gold;
+    font-size:large;
+}
+input[type="text"], input[type="password"]
+{
+    position:absolute;
+    left:510px;
+    width:30%;
+
+}
+p
+{
+    padding-left:45px;
+    margin:10px;
+    /**background-color:cyan;**/
+}
+#Civilite
+{
+    font-size: large;
+    padding-left:500px;
+
+}
+#Province
+{
+   position:absolute;
+    left:510px;
+    width:31%; 
+}
+#Courriel
+{
+    position:absolute;
+    left:510px;
+    width:30%;
+}
+#animal
+{
+    padding-left: 10px;
+    color: navy;
+    font-size:large;
+
+}
+#animalcom
+{
+    padding-left: 2px;
+    color: navy;
+    font-size:large; 
+}
+#Commentaires
+{
+    color: navy;
+    font-size:large;
+    padding-left: 80px;
+    width: 340px;
+    height: 50px;
+}
+input[type="image"]
+{
+    position:relative;
+    left:50%;
+}
+
+#btnforms
+{
+
+    color:whitesmoke;
+    background-color: #3b473f;
+    text-decoration: none;
+    padding:7px 5px 3px 5px ; 
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-size: x-large;
+
+}
+#btnforma
+{
+    color:whitesmoke;
+    background-color: #3b473f;
+    text-decoration: none;
+    padding:7px 5px 3px 5px ; 
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-size: x-large;
+}
+#btnforms:hover 
+{
+   color: #3b473f;
+   background-color: whitesmoke;
+   transition: 0.5s all;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+   border-radius:10px;
+}
+
+#btnforma:hover 
+{
+   color: #3b473f;
+   background-color: whitesmoke;
+   transition: 0.5s all;
+   -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+#menu-nav
+{
+    background-color: white;
+}
+#btnforms
+{
+    margin-left:200px;
+    margin-right:20px;
+}
+footer
+{
+    margin: 10px 10px 10px 10px;
+    display:inline-block;
+    font-size: large;
+    width: 1350px;
+    height: 20px;
+    background-color: #3b473f;
+    border-radius:15px;
+    border:solid 3px #3b473f;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+
+}

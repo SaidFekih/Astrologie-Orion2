@@ -1,0 +1,300 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 janv. 2020, 10 h 47 min 04 s
+    Author     : Said
+*/
+
+nav.menu-nav ul li.btn
+{
+    list-style-type: none;
+    display: inline-block;
+}
+nav.menu-nav ul li.btn a 
+{
+    color:whitesmoke;
+    background-color: #3b473f;
+    text-decoration: none;
+    padding:7px 5px 3px 5px ; 
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-size: x-large;
+    
+}
+nav.menu-nav ul li.btn:hover a 
+{
+   color: #3b473f;
+   background-color: whitesmoke;
+   transition: 0.5s all;
+   -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+header
+{
+    vertical-align: top;
+    width:1350px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:solid 5px #3b473f;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-family:cursive;
+    font-size:x-large;
+}
+#logoHead 
+{
+    display:inline-block;
+    margin-left:5px;
+    margin-top:5px;
+    width:150px; 
+    height:150px;
+}
+#titre
+{
+    display:inline-block;
+    vertical-align: top;
+    float: right;
+    text-align:center;
+    padding: 10px 200px;
+}
+#sousTitre
+{
+    color:gray;
+    vertical-align:top;
+    float: right;
+}
+
+div#content
+{
+    border: solid 3px #3b473f; 
+    background-color: transparent;
+    margin: 30px;
+    padding: 10px;
+    border-radius:15px;
+    width: 1290px;
+    color: whitesmoke;
+    font-family:cursive;
+    font-size:x-large;
+
+}
+div#content div.leftbox
+{
+    display:inline-block;
+    width:680px;
+    border-radius:15px;
+    border: solid 3px #3b473f;
+    border-radius:15px;
+    background-color: #3b473f;
+    margin-left: 70px;
+    
+    
+
+}
+div#content div.rightbox
+{
+    display:inline-block;
+    width: 475px;
+    border: solid 3px #3b473f;
+    float: right;
+    border-radius:15px;
+    background-color: #3b473f;
+
+
+
+}
+div#content div h1, p, iframe
+{
+    margin: 15px;
+}
+body#acceuil
+{
+     background-image: url(images/ArrierPlanSite1.jpg);
+     
+}
+td
+{
+    background-color: #3b473f;
+    color: whitesmoke;
+    font-family:cursive;
+    font-size:x-large;
+    border: solid 3px #333300; 
+    border-radius:15px;
+}
+#logoHoroscope 
+{
+        border-radius:50% ;
+
+}
+#date
+{
+    font-size: small;
+
+}
+td:first-child
+{
+        
+    padding:5px 5px 2px 5px;
+    width:120px; 
+    height:115px;
+    
+}
+td:first-child + td
+{
+    padding:2px 5px 2px 5px;
+    width:110px; 
+    height:115px;
+}
+td:first-child + td + td
+{
+    padding:2px 5px 2px 5px;
+    width:700px; 
+    height:115px;
+}
+td, th
+{
+    border: 1px solid black;
+    
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing:10px;
+    border:solid 3px  #3b473f; 
+    border-radius:15px;
+}
+div#contentHoroscopes div
+{
+    display: inline-block;
+    margin: 30px;
+}
+div#contentHoroscopes div#tableau
+{
+    vertical-align: top;
+
+}
+div#contentHoroscopes div#stars
+{
+   margin: 20px;
+   background-color: #3b473f;
+   vertical-align: top;
+   width: 300px;
+   border:solid 3px #333300;
+   border-radius:15px;
+   color: whitesmoke;
+   font-family:cursive;
+   font-size:x-large;
+}
+caption
+{
+    caption-side:top;
+    background-color: #3b473f;
+    color: whitesmoke;
+    font-family:cursive;
+    font-size:large;
+    border-radius:15px;
+    margin: auto;
+    border:solid 3px #333300;
+}
+#nomStar1
+{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size:xx-large;
+}
+#nomStar1:hover
+{
+    color: #778899;
+}
+footer
+{
+    display:inline-block;
+    font-size: large;
+    width: 1350px;
+    height: 20px;
+    background-color: #3b473f;
+    border-radius:15px;
+    border:solid 3px #3b473f;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+#liste
+{
+    display: inline-block;
+    width: 40px;
+    padding:5px;
+    margin-left: 1px;
+    border: transparent 1px;
+    background-color: transparent;
+    float: left;
+
+}
+#liste li
+{
+    
+    list-style-type: none; 
+    padding:0px;
+    margin:15px 1px 15px 1px;
+    font-family:'Comic Sans MS';
+    font-size:large;
+   
+    
+}
+#liste a:link, #liste a:visited
+{
+color:whitesmoke;
+background:#3b473f;
+padding:10px 12px 1px 12px;
+text-decoration: none;
+border-radius:5px 5px 5px 5px ;
+
+
+}
+#liste a:hover
+{
+    background-color: whitesmoke;
+    color: #3b473f;
+    
+}
+
+#contentH
+{
+    border: solid 3px #3b473f; 
+    background-color: #3b473f;
+    margin: 30px;
+    padding: 10px;
+    border-radius:15px;
+    width: 1290px;
+    color: whitesmoke;
+    font-family:cursive;
+    font-size:x-large;
+}
+#rightBox
+{
+    display:inline-block;
+    width: 100px;
+    border: solid 3px #3b473f;
+    float: right;
+    padding-right: 70px;
+    padding-top: 35px;
+    border-radius:15px;
+    background-color: #3b473f;
+}
+#leftBox
+{
+    display:inline-block;
+    width:1050px;
+    border-radius:15px;
+    border: solid 3px #3b473f;
+    border-radius:15px;
+    background-color: #3b473f;
+    margin-left: 10px;
+}
